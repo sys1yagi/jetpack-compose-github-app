@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/githubRepositorySearchFragment">
+
+    <fragment
+        android:id="@+id/githubRepositorySearchFragment"
+        android:name="com.sys1yagi.jetpack_compose_github_app.ui.repositorysearch.GithubRepositorySearchFragment"
+        android:label="GithubRepositorySearchFragment" />
+</navigation>
