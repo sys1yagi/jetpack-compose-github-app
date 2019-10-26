@@ -50,7 +50,6 @@ fun mainLayout(
     viewModel: GithubRepositorySearchViewModel,
     onOpenGithubRepository: (GithubRepository) -> Unit
 ) {
-    val viewState = viewModel.state.viewState
     MaterialTheme {
         FlexColumn {
             inflexible {
